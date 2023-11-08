@@ -1,13 +1,18 @@
 h1, h2{
-    background-color: blue;
-    font-size: 24px;
-    color: white;
+    color: orangered;
     font-family: Arial, Verdana, sans-serif;
     text-align: center;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 36px;
+    border-bottom: 4px solid orangered;
 }
 
 h2{
-    background-color: rgba(99, 99, 196, 0.767);
+    font-size: 24px;
+    border-bottom: 2px solid orangered;
 }
 
 li{
@@ -22,4 +27,22 @@ img{
 
 p{
     text-align: center;
+}
+
+.container{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.header{
+    padding: 0px;
+    margin: 0px;
+}
+
+.creator{
+    padding-left: 850px;
+    color: white;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
 }
